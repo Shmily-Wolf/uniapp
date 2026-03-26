@@ -1,0 +1,10 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#2C2F1B",
+    "titleBar.activeBackground": "#3D4225",
+    "titleBar.activeForeground": "#FBFBF9",
+    "titleBar.inactiveBackground": "#2C2F1B",
+    "titleBar.inactiveForeground": "#FBFBF9"
+  },
+  "tailwindCSS.experimental.configFile": "src/app.css"
+}
