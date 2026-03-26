@@ -3,12 +3,14 @@ import uni from "@dcloudio/vite-plugin-uni";
 import { UnifiedViteWeappTailwindcssPlugin } from 'weapp-tailwindcss/vite'
 import UniPages from '@uni-helper/vite-plugin-uni-pages'
 import UniManifest from '@uni-helper/vite-plugin-uni-manifest'
+import UniKuRoot from '@uni-ku/root'
 import tailwindcss from '@tailwindcss/postcss'
 import path from 'node:path'
 
 export default defineConfig({
   plugins: [
     UniPages(),
+    UniKuRoot(),
     UniManifest(),
     uni(),
     UnifiedViteWeappTailwindcssPlugin({
